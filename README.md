@@ -1,9 +1,9 @@
-# 📊 Analyse des performances et de la satisfaction des transports urbains  
+#  Analyse des performances et de la satisfaction des transports urbains  
 **Chicago & Philadelphia — Power BI | Python | Data Analytics**
 
 ---
 
-## 🧩 Contexte du projet
+##  Contexte du projet
 
 Dans un contexte d’augmentation continue des volumes de données liées aux transports urbains, les agences de transport de **Chicago** et **Philadelphia** souhaitent disposer d’un **outil de pilotage décisionnel** permettant de mieux comprendre et analyser la fréquentation des réseaux de transport.
 
@@ -19,7 +19,7 @@ Ce projet s’inscrit dans une démarche **Business Intelligence complète**, al
 
 ---
 
-## 🎯 Objectifs du projet
+##  Objectifs du projet
 
 - Intégrer des **sources de données hétérogènes** (RDF, CSV, Excel)
 - Mettre en place un **processus ETL** automatisé avec Python
@@ -30,29 +30,29 @@ Ce projet s’inscrit dans une démarche **Business Intelligence complète**, al
 
 ---
 
-## 🛠️ Stack technique
+##  Stack technique
 
-### 🔹 Data Processing & Analytics
+###  Data Processing & Analytics
 - **Python**
   - `pandas`
   - `pathlib`
   - `xml.etree`
   
 
-### 🔹 Business Intelligence
+###  Business Intelligence
 - **Power BI Desktop**
   - Power Query (ETL)
   - Modélisation des données (Star Schema)
   - DAX (mesures avancées)
 
-### 🔹 Outils collaboratifs
+###  Outils collaboratifs
 - GitHub
 - Jira
 - Confluence
 
 ---
 
-## 📂 Sources de données
+##  Sources de données
 
 ###  Chicago
 - Ridership quotidien par **route** (format RDF converti en CSV)
@@ -64,7 +64,7 @@ Ce projet s’inscrit dans une démarche **Business Intelligence complète**, al
 
 ---
 
-## 🔄 Pipeline de traitement des données
+##  Pipeline de traitement des données
 
 1. Conversion des fichiers **RDF vers CSV** à l’aide de Python  
 2. **Exploration des données (EDA)** pour identifier valeurs manquantes et incohérences  
@@ -78,7 +78,7 @@ Ce projet s’inscrit dans une démarche **Business Intelligence complète**, al
 
 ---
 
-## 🗂️ Modèle de données
+##  Modèle de données
 
 ###  Tables de faits
 - **Fact_Ridership_Mode**  
@@ -100,9 +100,9 @@ La modélisation suit un **schéma en étoile**, garantissant :
 
 ---
 
-## 📈 Dashboards Power BI
+##  Dashboards Power BI
 
-### 📊 Dashboard 1 — Comparaison par Mode
+###  Dashboard 1 — Comparaison par Mode
 - KPIs :  
   - Ridership total  
   - Évolution MoM (Month over Month)  
@@ -111,7 +111,7 @@ La modélisation suit un **schéma en étoile**, garantissant :
 - Répartition **Bus / Rail**
 - Analyse de l’évolution temporelle
 
-### 📊 Dashboard 2 — Comparaison par Route
+###  Dashboard 2 — Comparaison par Route
 - **Top 10 routes** par ridership
 - Classement et analyse de la volatilité
 - Répartition par ville
@@ -119,7 +119,7 @@ La modélisation suit un **schéma en étoile**, garantissant :
 
 ---
 
-## 📌 Livrables
+##  Livrables
 
 - Notebook Python (EDA & nettoyage des données)
 - Scripts Python de conversion **RDF → CSV**
@@ -129,7 +129,7 @@ La modélisation suit un **schéma en étoile**, garantissant :
 
 ---
 
-## ✅ Conclusion
+##  Conclusion
 
 Ce projet permet de démontrer une **maîtrise complète de la chaîne décisionnelle BI**, depuis la gestion de données complexes jusqu’à la création de tableaux de bord analytiques à forte valeur métier, facilitant la prise de décision pour les acteurs du transport urbain.
 
